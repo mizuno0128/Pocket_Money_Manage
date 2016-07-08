@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432110901D2F3689003C1DE8 /* Liberty Fish logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4321108F1D2F3689003C1DE8 /* Liberty Fish logo.png */; };
+		432110961D2F388E003C1DE8 /* day_select.m in Sources */ = {isa = PBXBuildFile; fileRef = 432110951D2F388E003C1DE8 /* day_select.m */; };
+		4321109B1D2F394F003C1DE8 /* Devise_Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321109A1D2F394F003C1DE8 /* Devise_Size.m */; };
+		432110A41D2F3BC2003C1DE8 /* MoneyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 432110A31D2F3BC2003C1DE8 /* MoneyData.m */; };
+		432110B31D2F44FA003C1DE8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432110AB1D2F3F96003C1DE8 /* CoreData.framework */; };
+		432110B41D2F4506003C1DE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432110971D2F38CA003C1DE8 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		432110B51D2F45CD003C1DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438A1B561D2F261F00ACA5ED /* Main.storyboard */; };
+		432110B81D2F4906003C1DE8 /* input_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 432110B71D2F4906003C1DE8 /* input_view.m */; };
 		438A1B4C1D2F261F00ACA5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A1B4B1D2F261F00ACA5ED /* main.m */; };
 		438A1B4F1D2F261F00ACA5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A1B4E1D2F261F00ACA5ED /* AppDelegate.m */; };
 		438A1B521D2F261F00ACA5ED /* Pocket_Money_Manage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 438A1B501D2F261F00ACA5ED /* Pocket_Money_Manage.xcdatamodeld */; };
 		438A1B551D2F261F00ACA5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A1B541D2F261F00ACA5ED /* ViewController.m */; };
-		438A1B581D2F261F00ACA5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438A1B561D2F261F00ACA5ED /* Main.storyboard */; };
 		438A1B5A1D2F261F00ACA5ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438A1B591D2F261F00ACA5ED /* Images.xcassets */; };
 		438A1B5D1D2F261F00ACA5ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 438A1B5B1D2F261F00ACA5ED /* LaunchScreen.xib */; };
 		438A1B691D2F261F00ACA5ED /* Pocket_Money_ManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A1B681D2F261F00ACA5ED /* Pocket_Money_ManageTests.m */; };
@@ -28,6 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4321108F1D2F3689003C1DE8 /* Liberty Fish logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liberty Fish logo.png"; sourceTree = "<group>"; };
+		432110941D2F388E003C1DE8 /* day_select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = day_select.h; sourceTree = "<group>"; };
+		432110951D2F388E003C1DE8 /* day_select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = day_select.m; sourceTree = "<group>"; };
+		432110971D2F38CA003C1DE8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		432110991D2F394F003C1DE8 /* Devise_Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Devise_Size.h; sourceTree = "<group>"; };
+		4321109A1D2F394F003C1DE8 /* Devise_Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Devise_Size.m; sourceTree = "<group>"; };
+		432110A21D2F3BC2003C1DE8 /* MoneyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyData.h; sourceTree = "<group>"; };
+		432110A31D2F3BC2003C1DE8 /* MoneyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyData.m; sourceTree = "<group>"; };
+		432110AB1D2F3F96003C1DE8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		432110B61D2F4906003C1DE8 /* input_view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_view.h; sourceTree = "<group>"; };
+		432110B71D2F4906003C1DE8 /* input_view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = input_view.m; sourceTree = "<group>"; };
 		438A1B461D2F261F00ACA5ED /* Pocket_Money_Manage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pocket_Money_Manage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438A1B4A1D2F261F00ACA5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		438A1B4B1D2F261F00ACA5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432110B41D2F4506003C1DE8 /* QuartzCore.framework in Frameworks */,
+				432110B31D2F44FA003C1DE8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,8 @@
 		438A1B3D1D2F261F00ACA5ED = {
 			isa = PBXGroup;
 			children = (
+				432110AB1D2F3F96003C1DE8 /* CoreData.framework */,
+				432110971D2F38CA003C1DE8 /* QuartzCore.framework */,
 				438A1B481D2F261F00ACA5ED /* Pocket_Money_Manage */,
 				438A1B651D2F261F00ACA5ED /* Pocket_Money_ManageTests */,
 				438A1B471D2F261F00ACA5ED /* Products */,
@@ -83,6 +105,7 @@
 		438A1B481D2F261F00ACA5ED /* Pocket_Money_Manage */ = {
 			isa = PBXGroup;
 			children = (
+				4321108F1D2F3689003C1DE8 /* Liberty Fish logo.png */,
 				438A1B4D1D2F261F00ACA5ED /* AppDelegate.h */,
 				438A1B4E1D2F261F00ACA5ED /* AppDelegate.m */,
 				438A1B531D2F261F00ACA5ED /* ViewController.h */,
@@ -92,6 +115,14 @@
 				438A1B5B1D2F261F00ACA5ED /* LaunchScreen.xib */,
 				438A1B501D2F261F00ACA5ED /* Pocket_Money_Manage.xcdatamodeld */,
 				438A1B491D2F261F00ACA5ED /* Supporting Files */,
+				432110941D2F388E003C1DE8 /* day_select.h */,
+				432110951D2F388E003C1DE8 /* day_select.m */,
+				432110991D2F394F003C1DE8 /* Devise_Size.h */,
+				4321109A1D2F394F003C1DE8 /* Devise_Size.m */,
+				432110A21D2F3BC2003C1DE8 /* MoneyData.h */,
+				432110A31D2F3BC2003C1DE8 /* MoneyData.m */,
+				432110B61D2F4906003C1DE8 /* input_view.h */,
+				432110B71D2F4906003C1DE8 /* input_view.m */,
 			);
 			path = Pocket_Money_Manage;
 			sourceTree = "<group>";
@@ -171,6 +202,7 @@
 				TargetAttributes = {
 					438A1B451D2F261F00ACA5ED = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = G7BRW6QDUD;
 					};
 					438A1B611D2F261F00ACA5ED = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,8 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438A1B581D2F261F00ACA5ED /* Main.storyboard in Resources */,
+				432110B51D2F45CD003C1DE8 /* Main.storyboard in Resources */,
 				438A1B5D1D2F261F00ACA5ED /* LaunchScreen.xib in Resources */,
+				432110901D2F3689003C1DE8 /* Liberty Fish logo.png in Resources */,
 				438A1B5A1D2F261F00ACA5ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432110A41D2F3BC2003C1DE8 /* MoneyData.m in Sources */,
+				432110B81D2F4906003C1DE8 /* input_view.m in Sources */,
+				4321109B1D2F394F003C1DE8 /* Devise_Size.m in Sources */,
 				438A1B521D2F261F00ACA5ED /* Pocket_Money_Manage.xcdatamodeld in Sources */,
 				438A1B4F1D2F261F00ACA5ED /* AppDelegate.m in Sources */,
 				438A1B551D2F261F00ACA5ED /* ViewController.m in Sources */,
+				432110961D2F388E003C1DE8 /* day_select.m in Sources */,
 				438A1B4C1D2F261F00ACA5ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pocket_Money_Manage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pocket_Money_Manage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +461,7 @@
 				438A1B6E1D2F261F00ACA5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438A1B6F1D2F261F00ACA5ED /* Build configuration list for PBXNativeTarget "Pocket_Money_ManageTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +470,7 @@
 				438A1B711D2F261F00ACA5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

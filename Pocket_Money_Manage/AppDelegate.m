@@ -16,6 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //スプラッシュ時間設定
+    sleep(2);
     // Override point for customization after application launch.
     return YES;
 }
